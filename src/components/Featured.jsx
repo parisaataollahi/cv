@@ -59,8 +59,19 @@ function Featured() {
               href="https://www.linkedin.com/in/parisa-ataollahi"
               target="_blank"
               rel="noopener noreferrer"
+              className="icon-i"
             >
               <i className="uil uil-linkedin-alt"></i>
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="https://github.com/parisaataollahi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon-i"
+            >
+              <i class="uil uil-github-alt"></i>
             </a>
           </div>
         </div>

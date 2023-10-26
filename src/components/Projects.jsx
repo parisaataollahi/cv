@@ -23,6 +23,25 @@ function Projects() {
                 </div>
               ))}
             </div>
+            <div className="btn-group">
+              <a
+                className="btn PrimaryBtn btn-shadow"
+                href={list.github_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github ➜
+              </a>
+
+              {/* <a
+                className="btn PrimaryBtn btn-shadow"
+                href={list.demo_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo ➜
+              </a> */}
+            </div>
           </div>
         </div>
       ))}
